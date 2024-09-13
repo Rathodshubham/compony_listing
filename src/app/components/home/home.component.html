@@ -1,0 +1,47 @@
+<!-- src/app/components/home/home.component.html -->
+<div class="container mt-4">
+    <div class="jumbotron text-center bg-light p-4 rounded">
+      <h1 class="display-4">Welcome to the Company Listing Application</h1>
+      <p class="lead">Discover and manage companies in various categories with ease.</p>
+      <hr class="my-4">
+      <p>Get started by exploring the companies or managing your dashboard.</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <a class="btn btn-primary btn-lg me-md-2" routerLink="/companies" role="button">Explore Companies</a>
+        <a class="btn btn-secondary btn-lg" routerLink="/login" role="button" *ngIf="!authService.isLoggedIn()">Login</a>
+        <a class="btn btn-secondary btn-lg" routerLink="/signup" role="button" *ngIf="!authService.isLoggedIn()">Signup</a>
+        <a class="btn btn-success btn-lg" routerLink="/admin-dashboard" role="button" *ngIf="authService.isLoggedIn() && authService.isUserAdmin()">Admin Dashboard</a>
+      </div>
+    </div>
+    
+    <div class="row mt-5">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Browse Companies</h5>
+            <p class="card-text">Explore a wide range of companies categorized by their services and products. Find the best match for your needs.</p>
+            <a class="btn btn-primary" routerLink="/companies">Browse</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Admin Dashboard</h5>
+            <p class="card-text">Manage company listings, update information, and oversee the platform's functionality from the admin dashboard.</p>
+            <a class="btn btn-success" routerLink="/admin-dashboard" *ngIf="authService.isLoggedIn() && authService.isUserAdmin()">Go to Dashboard</a>
+            <p *ngIf="!authService.isLoggedIn() || !authService.isUserAdmin()">Login as an admin to access the dashboard.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Contact Us</h5>
+            <p class="card-text">Have questions? Reach out to our support team for assistance.</p>
+            <a class="btn btn-info" routerLink="/contact">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

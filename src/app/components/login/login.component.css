@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+  }
+  
+  .error {
+    color: red;
+  }
+  input{
+    margin-bottom: 20px;
+  }
+  

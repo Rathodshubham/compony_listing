@@ -1,0 +1,39 @@
+/* src/app/components/company-list/company-list.component.css */
+
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-muted {
+  font-size: 0.875rem;
+}
+
+.badge {
+  font-size: 1rem;
+  padding: 0.5em 1em;
+}
+
+.company-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}

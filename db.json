@@ -1,0 +1,260 @@
+{
+  "companies": [
+    {
+      "id": "2",
+      "name": "Google1",
+      "category": "Technology1",
+      "description": "1Google is a global technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware. Google's mission is to organize the world’s information and make it universally accessible and useful.",
+      "rating": 4.81,
+      "companyImage": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "type": "Public1",
+      "location": "Mountain View1",
+      "products": "Search Engine,Cloud Computing,Software,Hardware1"
+    },
+    {
+      "id": "3",
+      "name": "Amazon",
+      "category": "E-commerce",
+      "description": "Amazon is an American multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence. Amazon is known for its disruption of well-established industries through technological innovation and mass scale.",
+      "rating": 4.3,
+      "companyImage": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "type": "Public",
+      "location": "Seattle",
+      "products": [
+        "E-commerce",
+        "AWS",
+        "Prime Video",
+        "Alexa"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Microsoft",
+      "category": "Technology",
+      "description": "Microsoft is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services. Its best-known software products are the Microsoft Windows line of operating systems, Microsoft Office suite, and Internet Explorer and Edge web browsers.",
+      "rating": 4.5,
+      "companyImage": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "type": "Publica",
+      "location": "Redmond",
+      "products": [
+        "Windows",
+        "Office",
+        "Azure",
+        "Surface"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Facebook",
+      "category": "Social Media",
+      "description": "Facebook is an American online social media and social networking service owned by Meta Platforms. Founded by Mark Zuckerberg, it is one of the world's most valuable companies. Facebook provides a way for people to keep up with friends and family, discover what's going on in the world, and share and express what matters to them.",
+      "rating": 4.4,
+      "companyImage": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+      "type": "Public",
+      "location": "Menlo Park",
+      "products": [
+        "Facebook App",
+        "Instagram",
+        "WhatsApp",
+        "Oculus"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Apple",
+      "category": "Technology",
+      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California. Apple designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories, and sells a variety of related services. Apple's best-known products include the iPhone, iPad, and Mac.",
+      "rating": 4.7,
+      "companyImage": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+      "type": "Public",
+      "location": "Cupertino",
+      "products": [
+        "iPhone",
+        "iPad",
+        "Mac",
+        "Apple Watch",
+        "Apple TV"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Netflix",
+      "category": "Entertainment",
+      "description": "Netflix, Inc. is an American subscription streaming service and production company. Netflix offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices. Netflix is known for its groundbreaking original content.",
+      "rating": 4.3,
+      "companyImage": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+      "type": "Public",
+      "location": "Los Gatos",
+      "products": [
+        "Streaming Service",
+        "Original Content"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Samsung",
+      "category": "Technology",
+      "description": "Samsung is a South Korean multinational conglomerate headquartered in Samsung Town, Seoul. Samsung's diverse product portfolio includes smartphones, tablets, televisions, home appliances, semiconductors, and memory products. Samsung is a leader in the global electronics market.",
+      "rating": 4.4,
+      "companyImage": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg",
+      "type": "Public",
+      "location": "Seoul",
+      "products": [
+        "Smartphones",
+        "Tablets",
+        "Televisions",
+        "Home Appliances",
+        "Semiconductors"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Oracle",
+      "category": "Technology",
+      "description": "Oracle Corporation is an American multinational computer technology corporation headquartered in Austin, Texas. Oracle specializes in developing and marketing database software and technology, cloud-engineered systems, and enterprise software products—particularly its own brands of database management systems.",
+      "rating": 4.2,
+      "companyImage": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
+      "type": "Public",
+      "location": "Austin",
+      "products": [
+        "Database Software",
+        "Cloud Engineered Systems",
+        "Enterprise Software"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Cisco",
+      "category": "Technology",
+      "description": "Cisco Systems, Inc. is an American multinational technology conglomerate headquartered in San Jose, California. Cisco develops, manufactures, and sells networking hardware, telecommunications equipment, and other high-technology services and products. Cisco is a leader in the global networking market.",
+      "rating": 4.3,
+      "companyImage": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cisco_logo_blue_2016.svg",
+      "type": "Public",
+      "location": "San Jose",
+      "products": [
+        "Networking Hardware",
+        "Telecommunications Equipment",
+        "High-Technology Services"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "324b",
+      "users": [
+        {
+          "firstName": "Shubham",
+          "lastName": "Rathod",
+          "email": "ishubhamrathod@gmail.com",
+          "phone": "1123456",
+          "password": "a@123",
+          "repassword": "a@123"
+        }
+      ]
+    },
+    {
+      "id": "f66a",
+      "users": [
+        {
+          "firstName": "Shubham",
+          "lastName": "Rathod",
+          "email": "ishubhamrathod@gmail.com",
+          "phone": "1123456",
+          "password": "a@122",
+          "repassword": "a@122"
+        }
+      ]
+    },
+    {
+      "id": "d8cb",
+      "users": [
+        {
+          "firstName": "Shubham",
+          "lastName": "Rathod",
+          "email": "ishubhamrathod@gmail.com",
+          "phone": "1123456",
+          "password": "a@123",
+          "repassword": "a@123"
+        }
+      ]
+    },
+    {
+      "id": "f586",
+      "users": [
+        {
+          "firstName": "Shubham",
+          "lastName": "Rathod",
+          "email": "ishubhamrathod@gmail.com",
+          "phone": "1123456",
+          "password": "a@123",
+          "repassword": "a@123"
+        }
+      ]
+    },
+    {
+      "id": "9f0d",
+      "users": [
+        {
+          "firstName": "Shubham",
+          "lastName": "Rathod",
+          "email": "ishubhamrathod@gmail.com",
+          "phone": "1123456",
+          "password": "a@123",
+          "repassword": "a@123"
+        }
+      ]
+    },
+    {
+      "id": "879b",
+      "users": [
+        {
+          "firstName": "Shubham",
+          "lastName": "Rathod",
+          "email": "ishubhamrathod@gmail.com",
+          "phone": "1123456",
+          "password": "a@1",
+          "repassword": "a@1"
+        }
+      ]
+    },
+    {
+      "id": "7cde",
+      "users": [
+        {
+          "firstName": "Shubham",
+          "lastName": "Rathod",
+          "email": "ishubhamrathod@gmail.com",
+          "phone": "1123456",
+          "password": "a@1",
+          "repassword": "a@1"
+        }
+      ]
+    },
+    {
+      "id": "4576",
+      "users": [
+        {
+          "firstName": "Shubham",
+          "lastName": "Rathod",
+          "email": "ishubhamrathod@gmail.com",
+          "phone": "1123456",
+          "password": "1@q",
+          "repassword": "1@q"
+        }
+      ]
+    },
+    {
+      "id": "8a49",
+      "users": [
+        {
+          "firstName": "Shubham",
+          "lastName": "Rathod",
+          "email": "ishubhamrathod@gmail.com",
+          "phone": "1123456",
+          "password": "a@1",
+          "repassword": "a@1"
+        }
+      ]
+    }
+  ]
+}

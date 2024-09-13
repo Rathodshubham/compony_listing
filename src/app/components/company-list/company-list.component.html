@@ -1,0 +1,24 @@
+<!-- src/app/components/company-list/company-list.component.html -->
+<div class="container mt-4">
+  <h2>Company Listings</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let company of companies">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="d-flex align-items-center mb-3">
+            <img [src]="company.companyImage" alt="{{ company.name }}" class="company-image me-3">
+            <div class="flex-grow-1">
+              <h5 class="card-title mb-0 d-flex justify-content-between align-items-center">
+                <span>{{ company.name }}</span>
+                <span class="badge bg-success"><i class="fas fa-star"></i> {{ company.rating }}</span>
+              </h5>
+              <p class="text-muted mb-1">{{ company.category }} | {{ company.type }} | {{ company.location }}</p>
+            </div>
+          </div>
+          <p class="text-muted mb-3">{{ company.description }}</p>
+          <p><strong>Products:</strong> {{ company.products  }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
